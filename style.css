@@ -1,0 +1,189 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f1f1f1;
+    color: #111;
+}
+
+.page {
+    width: 470px;
+    margin: 0 auto;
+    padding: 18px 14px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 25px;
+    margin: 0 0 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 15px;
+    margin: 0 0 10px;
+}
+
+h3 {
+    font-size: 17px;
+    margin: 8px 0 3px;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.25;
+    margin: 3px 0;
+}
+
+.product-image {
+    text-align: center;
+    margin: 5px 0 8px;
+}
+
+.product-image img {
+    width: 240px;
+    height: 210px;
+    object-fit: contain;
+}
+
+ul {
+    margin: 3px 0 8px;
+    padding-left: 20px;
+}
+
+li {
+    font-size: 12px;
+    line-height: 1.35;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+th {
+    background: #d679bd;
+    color: white;
+    padding: 4px;
+    border: 1px solid #777;
+}
+
+td {
+    border: 1px solid #ccc;
+    padding: 3px 5px;
+}
+
+td:first-child {
+    width: 50%;
+}
+
+.offer h3 {
+    margin-top: 7px;
+}
+
+.regular {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.sale {
+    font-size: 15px;
+    font-weight: bold;
+    color: #b5399e;
+}
+
+.shipping {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.website {
+    font-size: 12px;
+    color: #234d91;
+    text-decoration: underline;
+}
+
+.order h3 {
+    margin-top: 9px;
+}
+
+form {
+    display: flex;
+    align-items: end;
+    gap: 10px;
+}
+
+.field,
+.quantity {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.field input {
+    width: 120px;
+    height: 35px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+.field input:focus {
+    outline: 2px solid #6aa9e9;
+}
+
+.quantity {
+    width: 70px;
+}
+
+.quantity input {
+    border: none;
+    width: 30px;
+    font-size: 11px;
+    padding: 4px;
+}
+
+button {
+    flex: 1;
+    height: 35px;
+    background: #ffbde3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ed8aab;
+}
+
+@media (max-width: 800px) {
+
+    .browser {
+        width: 100%;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .page {
+        width: 95%;
+    }
+
+    form {
+        flex-wrap: wrap;
+    }
+
+    button {
+        min-width: 100%;
+    }
+}
